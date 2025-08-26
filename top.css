@@ -1,10 +1,10 @@
-        .bg-top {
+      .bg-top {
         background-position: top;
         background-repeat: no-repeat;
-        background-image: url('./img/FB_IMG_1745911730816~2.jpg');
+        background-image: url('./img/1.jpg');
         background-size: cover;
        }
-        .bg-dim {
+      .bg-dim {
         background-color: rgba(0,0,0,.6);
         color: #fff;
         }
