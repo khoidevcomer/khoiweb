@@ -1,4 +1,4 @@
-    document.getElementById('redirectButton').addEventListener('click', function() {
+    document.getElementById('redirectButton1').addEventListener('click', function() {
             window.location.href = 'https://www.google.com'; // Replace with your desired URL
         });
          /*document.getElementById('colorButton').addEventListener('click', function() {
