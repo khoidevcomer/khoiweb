@@ -1,8 +1,11 @@
       /* ensure page roots fill viewport and no default white margins */
-html, body {
-  height: 100%;
+body, html {
+  width: 100vw;
+  height: 100vh;
   margin: 0;
-  background-color: #000; /* fallback color matching the image (adjust as needed) */
+  padding: 0;
+  box-sizing: border-box;
+  background: #000; /* fallback background */
 }
 
 /* make the top background cover the full viewport */
@@ -10,7 +13,7 @@ html, body {
     width: 100%;
     min-height: 100vh;               /* stretch to full viewport height */
     background-image: url('./img/1.jpg');
-    background-position: center center; /* center image */
+    background-position: center ; /* center image */
     background-repeat: no-repeat;
     background-size: cover;          /* preserves aspect ratio and fills area */
     background-color: #000;          /* fallback color for areas where image can't cover */
@@ -24,6 +27,12 @@ html, body {
         min-height: 100vh; 
         }
 
+
+  .bg-top, .bg-dim {
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+}      
    /* Navbar */
   .navbar-flex {
 	display: -ms-flexbox;
