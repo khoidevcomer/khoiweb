@@ -8,6 +8,7 @@ html, body {
 .bg-top {
     width: 100%;
     min-height: 100vh;               /* stretch to full viewport height */
+    height: 100vh;
     background-image: url('./img/1.jpg');
     background-position: center ; /* center image */
     background-repeat: no-repeat;
@@ -60,7 +61,8 @@ html, body {
    }
 .container {
   position: relative;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
