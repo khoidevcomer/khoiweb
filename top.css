@@ -1,7 +1,9 @@
       /* ensure page roots fill viewport and no default white margins */
 html, body {
-  height: 100%;
   margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 /* make the top background cover the full viewport */
@@ -10,11 +12,10 @@ html, body {
     min-height: 100vh;               /* stretch to full viewport height */
     height: 100vh;
     background-image: url('./img/1.jpg');
-    background-position: center center; /* center image */
+    background-position: top center; /* center image */
     background-repeat: no-repeat;
     background-size: cover;          /* preserves aspect ratio and fills area */
     background-color: #000;          /* fallback color for areas where image can't cover */
-    size-adjust: auto;
   }
       .bg-dim {
         background-color: rgba(0,0,0,.6);
