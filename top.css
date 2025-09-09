@@ -14,7 +14,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;          /* preserves aspect ratio and fills area */
     background-color: #000;          /* fallback color for areas where image can't cover */
-    size-adjust: auto
+    size-adjust: auto;
     
   }
       .bg-dim {
