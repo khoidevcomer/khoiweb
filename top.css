@@ -1,11 +1,7 @@
       /* ensure page roots fill viewport and no default white margins */
-body, html {
-  width: 100vw;
-  height: 100vh;
+html, body {
+  height: 100%;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: #000; /* fallback background */
 }
 
 /* make the top background cover the full viewport */
@@ -15,7 +11,7 @@ body, html {
     background-image: url('./img/1.jpg');
     background-position: center ; /* center image */
     background-repeat: no-repeat;
-    background-size:auto;          /* preserves aspect ratio and fills area */
+    background-size: cover;          /* preserves aspect ratio and fills area */
     background-color: #000;          /* fallback color for areas where image can't cover */
     size-adjust: auto
     
@@ -27,12 +23,6 @@ body, html {
         min-height: 100vh; 
         }
 
-
-  .bg-top, .bg-dim {
-  width: 100vw;
-  min-height: 100vh;
-  box-sizing: border-box;
-}      
    /* Navbar */
   .navbar-flex {
 	display: -ms-flexbox;
