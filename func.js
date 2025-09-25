@@ -11,7 +11,7 @@
             document.body.style.backgroundColor = randomColor; // This will change the background color, not the image
         });*/
         
-    function playAudio() {
+    function playSound() {
         const audio = new Audio('videoplayback.mp3')
         audio.play();
     }
@@ -20,5 +20,5 @@
     }
     const play = document.querySelector('#play')
     play.onclick = () => {
-        playAudio
+        playSound();
     }
