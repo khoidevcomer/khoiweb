@@ -12,13 +12,10 @@
         });*/
         
     function playSound() {
-        const audio = new Audio('videoplayback.mp3')
+        const audio = new Audio('videoplayback.mp3');
         audio.play();
     }
-    function pauseAudio() {
-        audio.pause()
-    }
-    const play = document.querySelector('#play')
+    const play = document.querySelector('#playScrem');
     play.onclick = () => {
         playSound();
     }
