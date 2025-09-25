@@ -5,9 +5,11 @@
     const navbarList = document.getElementById('navbarList');
     navbarList.classList.toggle('open');
         });
-document.getElementById('playScrem').addEventListener('click', function() {
-  document.getElementById('myAudio').play();
-});
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
          /*document.getElementById('colorButton').addEventListener('click', function() {
             const colors = ['#FF5733', '#33FF57', '#3357FF', '#F1C40F', '#8E44AD'];
             const randomColor = colors[Math.floor(Math.random() * colors.length)];
