@@ -1,11 +1,4 @@
- document.getElementById('redirectButton1').addEventListener('click', function() {
-            window.location.href = 'https://www.google.com'; // Replace with your desired URL
-        });
-    document.getElementById('navToggle').addEventListener('click', function() {
-    const navbarList = document.getElementById('navbarList');
-    navbarList.classList.toggle('open');
-        });
-// Cleaned-up audio play logic.
+ // Cleaned-up audio play logic.
 // Behavior: when user clicks the Scream button it will play the sound.
 // Additional clicks while the sound is playing are ignored until playback finishes.
 document.addEventListener('DOMContentLoaded', function () {
@@ -79,4 +72,3 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-

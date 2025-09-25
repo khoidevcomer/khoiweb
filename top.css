@@ -95,7 +95,8 @@ html, body {
   margin-top: 16px;
 }
   #playScrem,
-#redirectButton1 {
+#redirectButton1,
+#about {
   padding: 10px 20px;
   font-size: 16px;
   border: none;
